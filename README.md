@@ -7,7 +7,7 @@ pybase
 ` pip install git+https://github.com/zhouxianggen/pybase.git`
 
 ## `Upgrade`
-` pip install --U git+https://github.com/zhouxianggen/pybase.git`
+` pip install -U git+https://github.com/zhouxianggen/pybase.git`
 
 ## `Uninstall`
 ` pip uninstall pybase`
