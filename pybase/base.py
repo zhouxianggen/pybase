@@ -10,7 +10,7 @@ class BaseObject(object):
         self.log.setLevel(log_level)
         self.log.propagate = False
         if not self.log.handlers:
-            fmt = ('[%(name)-25s %(thread)-15d '
+            fmt = ('[%(name)-15s %(thread)-18d '
                     '%(levelname)-8s %(asctime)s] %(message)s')
             handler = logging.StreamHandler()
             handler.setFormatter(logging.Formatter(fmt))
